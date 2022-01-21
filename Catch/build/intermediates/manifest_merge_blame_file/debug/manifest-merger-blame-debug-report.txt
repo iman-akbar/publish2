@@ -1,0 +1,32 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.acatch" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="31" />
+7-->D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml
+8
+9    <application>
+9-->D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:4:5-13:19
+10        <service
+10-->D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:5:9-12:19
+11            android:name="com.example.acatch.getNotif"
+11-->D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:5:18-42
+12            android:exported="false"
+12-->D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:8:13-37
+13            android:label="@string/service_name"
+13-->D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:6:13-49
+14            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+14-->D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:7:13-87
+15            <intent-filter>
+15-->D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:9:13-11:29
+16                <action android:name="android.service.notification.NotificationListenerService" />
+16-->D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:10:17-99
+16-->D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:10:25-96
+17            </intent-filter>
+18        </service>
+19    </application>
+20
+21</manifest>

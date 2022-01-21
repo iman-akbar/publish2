@@ -1,0 +1,43 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:2:1-14:12
+	package
+		ADDED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml
+		INJECTED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:4:5-13:19
+service#com.example.acatch.getNotif
+ADDED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:5:9-12:19
+	android:label
+		ADDED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:6:13-49
+	android:exported
+		ADDED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:8:13-37
+	android:permission
+		ADDED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:7:13-87
+	android:name
+		ADDED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:5:18-42
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:9:13-11:29
+action#android.service.notification.NotificationListenerService
+ADDED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:10:17-99
+	android:name
+		ADDED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml:10:25-96
+uses-sdk
+INJECTED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml
+INJECTED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml
+INJECTED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml
+INJECTED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml
+		ADDED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml
+		INJECTED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml
+		ADDED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml
+		INJECTED from D:\flutter try\getSDK\Catch\src\main\AndroidManifest.xml
