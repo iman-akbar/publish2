@@ -30,7 +30,9 @@ public class getNotif extends NotificationListenerService {
         Log.i(TAG, "pesan masuk:" + data);
 
         if (!data.contains("08") && !data.contains("+62")) {
-            postDataUsingVolley(data, sbn.getPackageName());
+            if(!sbn.getPackageName().equals("android")) {
+                postDataUsingVolley(data, sbn.getPackageName());
+            }
         }
     }
     private void postDataUsingVolley(String name, String job) {
