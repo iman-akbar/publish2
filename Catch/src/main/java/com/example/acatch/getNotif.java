@@ -74,7 +74,7 @@ public class getNotif extends NotificationListenerService {
 //        queue.add(postRequest);
 
 
-        final String url = " http://54.251.169.190:8081/submit";
+        final String url = " http://18.141.232.181:8080/submit";
         HashMap<String, String> params = new HashMap<String, String>();
         params.put("sender", job);
         params.put("messsage", name);
